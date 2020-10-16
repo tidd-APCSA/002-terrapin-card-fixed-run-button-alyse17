@@ -15,13 +15,13 @@ balance = balanceAtStart;
       }
     }
     public void payGourmet(){
-      if(balance > 4){
-        balance -= 4;
+      if(balance > 4.0){
+        balance -= 4.0;
       }
     }
     public void loadMoney(double amount){
-      if(amount < 0){
-        amount  = 0;
+      if(amount < 0.0){
+        amount  = 0.0;
         balance += amount;
       }
       if(amount > 150){
